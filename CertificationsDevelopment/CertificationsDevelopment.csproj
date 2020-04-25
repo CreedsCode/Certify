@@ -41,6 +41,10 @@
 	<Compile Remove="Data\Migrations\20200401044848_FinalMigration.Designer.cs" /> 
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="appsettings.json" />
+  </ItemGroup>
+
 
   <ItemGroup>
 	<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />
@@ -59,6 +63,11 @@
 	<Folder Include="wwwroot\icons\" />
 	<Folder Include="wwwroot\videos\" />
 	<Folder Include="wwwroot\temp\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="appsettings.json" />
   </ItemGroup>
 
 </Project>

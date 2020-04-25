@@ -491,3 +491,4 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/code,aspnetcore,visualstudio,visualstudiocode
+/CertificationsDevelopment/appsettings.development.json
